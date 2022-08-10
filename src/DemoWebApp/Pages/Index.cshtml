@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script src="https://unpkg.com/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<script>
+    $(function() {
+        $('#hostname').text(window.location.hostname);
+    });
+</script>
+
+
+<div class="text-center">
+    <h1 class="display-4">Hostname: <span id="hostname">text</span> </h1>
+</div>
+

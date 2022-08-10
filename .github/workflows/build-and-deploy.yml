@@ -10,7 +10,7 @@ on:
 env:
   dotnet_version: '6.0'
   artifact_name: web-app
-  project_path: src/DemoApp
+  project_path: src/DemoWebApp
   # use {0} for replace expression: https://docs.github.com/en/actions/learn-github-actions/expressions#format
   publish_profile_template: AzureAppService_PublishProfile_{0}
 
